@@ -172,5 +172,8 @@ border:1px solid #000000; /*required or the default border for the browser will 
 color:#ffffff;
 font-size:1.1em;
 }
+@media only screen and (max-width : 320px) {
 
+
+ }
 

@@ -10,7 +10,8 @@ input:-moz-placeholder {color:black; }
 /* individual: mozilla */
 #error::-moz-placeholder { color:#00f; }
 
-.image-container {
+@media only screen and (min-width : 1024px) {
+    .image-container {
     position: relative;
     width: 700px;
     height: 700px;
@@ -23,7 +24,7 @@ input:-moz-placeholder {color:black; }
     height: 100%;
    
      display: block;
-    background: url(../images/form_bg.jpg);
+   
     background-repeat: repeat-x;
 }
 .image-container .after .secafter{
@@ -81,7 +82,7 @@ height: 150px;
 .sec_div
 {
 
-   position:absolute; left:250px; width:200px; height:100px;
+   position:absolute; left:50px; width:200px; height:100px;
 
 }
 .textImg
@@ -161,7 +162,7 @@ width: 370px;
     width: 160px;
     border-radius: 2px; */
     cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
-padding:5px 25px; /*add some padding to the inside of the button*/
+padding:5px 52px; /*add some padding to the inside of the button*/
 background-image: url(../images/RegBx_BG.png); /*the colour of the button*/
 border:1px solid #000000; /*required or the default border for the browser will appear*/
 /*give the button curved corners, alter the size as required*/
@@ -173,4 +174,27 @@ color:#ffffff;
 font-size:1.1em;
 }
 
+.russelClass
+{
+ padding-top: 10px;
+  padding-left: 250px;
+width:300px;
+height: 350px;
+}
+.bannerClass
+{
+ padding-top: 0px;
+  padding-left: 0px;
+width:450px;
+height: 150px;
+}
+.imgclass1 { height: 100%; width: 1280px; }
 
+.formelem
+{
+ position:absolute; left:100px; width:200px; height:100px;   
+}
+}
+
+@media only screen and (min-width : 200px) {
+     }
