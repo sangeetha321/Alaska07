@@ -2,6 +2,7 @@
 ::-moz-placeholder {color:black; } /* firefox 19+ */
 :-ms-input-placeholder { color:black; } /* ie */
 input:-moz-placeholder {color:black; }
+@media only screen and (min-width : 200px) {
 
 /* individual: webkit */
 #error::-webkit-input-placeholder { color:#f00; }
@@ -12,19 +13,21 @@ input:-moz-placeholder {color:black; }
 
 .image-container {
     position: relative;
-    width: 700px;
-    height: 700px;
+    width: 300px;
+    height: 800px;
 }
 .image-container .after {
     position: absolute;
     top: 70px;
-    left: 300px;
+    left: 40px;
     width: 100%;
-    height: 100%;
+    
    
      display: block;
     background: url(../images/form_bg.jpg);
     background-repeat: repeat-x;
+    background-size: 10px 620px;
+
 }
 .image-container .after .secafter{
     position: absolute;
@@ -55,10 +58,7 @@ input:-moz-placeholder {color:black; }
 }
 .secaftrclass
 {
-  padding-top: 50px;
-  padding-left: 250px;
-width: 200px;
-height: 250px;
+  display: none;
 }
 .alreadyclass
 {
@@ -81,7 +81,7 @@ height: 150px;
 .sec_div
 {
 
-   position:absolute; left:250px; width:200px; height:100px;
+   position:absolute; left:0px; width:200px; height:100px;top: 284px;
 
 }
 .textImg
@@ -109,9 +109,9 @@ p
 }
 .declareDiv
 {
-width: 370px;
-    height: 20px;
-    padding-top: 320px;
+width: 250px;
+    height: 50px;
+    padding-top: 538px;
     padding-left: 20px;
     position: relative;
 }
@@ -122,7 +122,7 @@ width: 370px;
     width: 100%;
     height: 100px;
     background-color: #ffffff;
-    padding-top: 20px;
+    padding-top: 3px;
     color: #ffffff;
     font-weight: bold;
     font-size: 14px;
@@ -131,7 +131,7 @@ width: 370px;
 }
 .formFooter1
 {
-  width: 200px;
+  width: 20px;
     height: 100px;
     background-color: #ffffff;
     padding-top: 0px;
@@ -143,14 +143,15 @@ width: 370px;
 }
 .formFooter2
 {
-  width: 247px;
+  width: 300px;
     height: 100px;
     
-    padding-top: 0px;
+    padding-top: 40px;
     color: #000000;
     font-weight: bold;
     font-size: 10px; 
-    padding-left: 460px; 
+    padding-left: 15px; 
+    text-align: center;
 }
 .btnclass
 {
@@ -174,3 +175,5 @@ font-size:1.1em;
 }
 
 
+.imgclass1 { height: 100%; width: 400px; }
+}
