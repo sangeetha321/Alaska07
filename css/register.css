@@ -18,7 +18,17 @@ h3 { margin: 0 0 8px 0; }
 p { margin: 0 0 20px 0; }
 
 
-
+#divid2 {
+    width: 100%;
+    max-width: 100%;
+    height: 20px;
+   
+    padding-left: 10px;px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
 
 @media all and (min-width: 1001px) {
   
