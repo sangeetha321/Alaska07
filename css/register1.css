@@ -1,7 +1,7 @@
-::-webkit-input-placeholder { color:#D3D3D3; }
-::-moz-placeholder {color:#D3D3D3; } /* firefox 19+ */
-:-ms-input-placeholder { color:#D3D3D3; } /* ie */
-input:-moz-placeholder {color:#D3D3D3; }
+::-webkit-input-placeholder { color:#808080; }
+::-moz-placeholder {color:#808080; } /* firefox 19+ */
+:-ms-input-placeholder { color:#808080; } /* ie */
+input:-moz-placeholder {color:#808080; }
 
 /* individual: webkit */
 #error::-webkit-input-placeholder { color:#f00; }
