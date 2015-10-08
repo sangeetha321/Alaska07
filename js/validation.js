@@ -67,5 +67,11 @@ function logVal()
        document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Mileage.!!</font></h5>";
         return false;
     } 
+    var regex = /^([0-9a-zA-Z]([-_\\.]*[0-9a-zA-Z]+)*)@([0-9a-zA-Z]([-_\\.]*[0-9a-zA-Z]+)*)[\\.]([a-zA-Z]{2,9})$/;
+            if (!regex.test(email)) {
+               document.getElementById("divid2").style.backgroundColor="#ffffff";
+       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  valid email..!!</font></h5>";
+                return false;
+            }
     
 }
