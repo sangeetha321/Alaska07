@@ -1,7 +1,7 @@
-::-webkit-input-placeholder { color:#808080; }
-::-moz-placeholder {color:#808080; } /* firefox 19+ */
-:-ms-input-placeholder { color:#808080; } /* ie */
-input:-moz-placeholder {color:#808080; }
+::-webkit-input-placeholder { color:#696969; }
+::-moz-placeholder {color:#696969; } /* firefox 19+ */
+:-ms-input-placeholder { color:#696969; } /* ie */
+input:-moz-placeholder {color:#696969; }
 
 /* individual: webkit */
 #error::-webkit-input-placeholder { color:#f00; }
