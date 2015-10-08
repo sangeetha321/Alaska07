@@ -54,12 +54,12 @@
 }
 function logVal()
 {
- var fname = document.getElementById("fname").value;
-    var lname = document.getElementById("lname").value;
+
+    var mileage = document.getElementById("mileage").value;
    var email = document.getElementById("email").value; 
-    if (lname == "") {
+    if (mileage == "") {
        document.getElementById("divid2").style.backgroundColor="#ffffff";
-       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Last Name..!!</font></h5>";
+       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Mileage.!!</font></h5>";
         return false;
     } 
     if (email == "") {
