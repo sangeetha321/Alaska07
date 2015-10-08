@@ -13,35 +13,34 @@
         return false;
     } 
      if (lname == "") {
+       document.getElementById("divid2").style.backgroundColor="#ffffff";
        document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Last Name..!!</font></h5>";
         return false;
     } 
     if (email == "") {
+      document.getElementById("divid2").style.backgroundColor="#ffffff";
        document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Email..!!</font></h5>";
         return false;
     } 
-     if (mileage_plan == "") {
-       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Mileage Plans..!!</font></h5>";
+    if (mileage == "") {
+       document.getElementById("divid2").style.backgroundColor="#ffffff";
+       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Mileage ..!!</font></h5>";
         return false;
     } 
 
-
-
-    /*else if ("" == b) {
-        document.getElementById("alertDiv").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Age..!!</font></h5>";
+     if (mileage_plan == "") {
+       document.getElementById("divid2").style.backgroundColor="#ffffff";
+       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Mileage Plans..!!</font></h5>";
         return false;
+    } 
+    var regex = /^([0-9a-zA-Z]([-_\\.]*[0-9a-zA-Z]+)*)@([0-9a-zA-Z]([-_\\.]*[0-9a-zA-Z]+)*)[\\.]([a-zA-Z]{2,9})$/;
+            if (!regex.test(email)) {
+               document.getElementById("divid2").style.backgroundColor="#ffffff";
+       document.getElementById("divid2").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  valid email..!!</font></h5>";
+                return false;
+            }
 
-    }
-    if ("" == c) {
-        document.getElementById("alertDiv").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Department..!!</font></h5>";
 
-        return false;
-    } else if ("" == d) {
-        document.getElementById("alertDiv").innerHTML = " <h5><font color='#ff0000' align='center'>Please input  Designation..!!</font></h5>";
-        return false;
-    } else if (isNaN(b) || b <= 0) {
-        document.getElementById("alertDiv").innerHTML = " <h5><font color='#ff0000' align='center'>Invalid Age..!!</font></h5>";
 
-        return false;
-    } */
+    
 }
